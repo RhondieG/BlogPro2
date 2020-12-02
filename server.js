@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const Article = require('./models/article')
 const articleRouter = require('./routes/articles')
 const methodOverride = require('method-override')
-const bodyParser = require('body-parser');
+const bodyParser = require('body-parser')
 const app = express()
 
 mongoose.connect('mongodb://localhost:27017/blog', {
